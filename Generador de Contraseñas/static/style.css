@@ -1,0 +1,57 @@
+
+body {
+    background: linear-gradient(to right, #1b2d46, #0a6292);
+    color: #ffffff;
+}
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+.form-label {
+    font-weight: bold;
+}
+#password {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #28a745;
+}
+#seguridad {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #28a745;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.options {
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+#resultado {
+    display: block;
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    border-radius: 10px;
+}
+.form-control {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: none;
+    transition: background-color 0.3s;
+}
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+</style>
